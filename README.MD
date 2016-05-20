@@ -13,7 +13,7 @@ This library provides a replaying JSON handlers for other JSON processing librar
 
 Consult the [documentation](http://markenwerk.github.io/java-utils-json-handler-replay/javadoc/index.html) and the [usage description](#usage) for further information:
 
-- [XML document handler](#replay-document-handler)
+- [Replaying handler](#replaying-handler)
 
 ## Maven
 
