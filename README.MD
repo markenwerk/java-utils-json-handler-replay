@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/markenwerk/java-utils-json-handler-reply.svg?branch=master)](https://travis-ci.org/markenwerk/java-utils-json-handler-reply)
 [![Coverage Status](https://coveralls.io/repos/github/markenwerk/java-utils-json-handler-reply/badge.svg?branch=master)](https://coveralls.io/github/markenwerk/java-utils-json-handler-reply?branch=master)
-[![Dependency Status](https://www.versioneye.com/user/projects/571e48cdfcd19a0039f1805b/badge.svg)](https://www.versioneye.com/user/projects/571e48cdfcd19a0039f1805b)
+[![Dependency Status](https://www.versioneye.com/user/projects/573f1b9ece8d0e0047372236/badge.svg)](https://www.versioneye.com/user/projects/573f1b9ece8d0e0047372236)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.markenwerk/utils-json-handler-reply/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.markenwerk/utils-json-handler-reply)
 [![Issues](https://img.shields.io/github/issues/markenwerk/java-utils-json-handler-reply.svg)](https://github.com/markenwerk/java-utils-json-handler-reply/issues)
 [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/markenwerk/java-utils-json-handler-reply/blob/master/LICENSE)
