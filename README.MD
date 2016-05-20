@@ -1,28 +1,28 @@
 # Replaying handler for JSON libraries
 
-[![Build Status](https://travis-ci.org/markenwerk/java-utils-json-handler-reply.svg?branch=master)](https://travis-ci.org/markenwerk/java-utils-json-handler-reply)
-[![Coverage Status](https://coveralls.io/repos/github/markenwerk/java-utils-json-handler-reply/badge.svg?branch=master)](https://coveralls.io/github/markenwerk/java-utils-json-handler-reply?branch=master)
+[![Build Status](https://travis-ci.org/markenwerk/java-utils-json-handler-replay.svg?branch=master)](https://travis-ci.org/markenwerk/java-utils-json-handler-replay)
+[![Coverage Status](https://coveralls.io/repos/github/markenwerk/java-utils-json-handler-replay/badge.svg?branch=master)](https://coveralls.io/github/markenwerk/java-utils-json-handler-replay?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/573f1b9ece8d0e0047372236/badge.svg)](https://www.versioneye.com/user/projects/573f1b9ece8d0e0047372236)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.markenwerk/utils-json-handler-reply/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.markenwerk/utils-json-handler-reply)
-[![Issues](https://img.shields.io/github/issues/markenwerk/java-utils-json-handler-reply.svg)](https://github.com/markenwerk/java-utils-json-handler-reply/issues)
-[![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/markenwerk/java-utils-json-handler-reply/blob/master/LICENSE)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.markenwerk/utils-json-handler-replay/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.markenwerk/utils-json-handler-replay)
+[![Issues](https://img.shields.io/github/issues/markenwerk/java-utils-json-handler-replay.svg)](https://github.com/markenwerk/java-utils-json-handler-replay/issues)
+[![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/markenwerk/java-utils-json-handler-replay/blob/master/LICENSE)
 
 ## Overview
 
 This library provides a replaying JSON handlers for other JSON processing libraries.
 
-Consult the [documentation](http://markenwerk.github.io/java-utils-json-handler-reply/javadoc/index.html) and the [usage description](#usage) for further information:
+Consult the [documentation](http://markenwerk.github.io/java-utils-json-handler-replay/javadoc/index.html) and the [usage description](#usage) for further information:
 
-- [XML document handler](#reply-document-handler)
+- [XML document handler](#replay-document-handler)
 
 ## Maven
 
-This library is hosted in the [Maven Central Repository](https://maven-badges.herokuapp.com/maven-central/net.markenwerk/utils-json-handler-reply). You can use it with the following coordinates:
+This library is hosted in the [Maven Central Repository](https://maven-badges.herokuapp.com/maven-central/net.markenwerk/utils-json-handler-replay). You can use it with the following coordinates:
 
-```reply
+```replay
 <dependency>
 	<groupId>net.markenwerk</groupId>
-	<artifactId>utils-json-handler-reply</artifactId>
+	<artifactId>utils-json-handler-replay</artifactId>
 	<version>1.0.0</version>
 </dependency>
 ```
@@ -52,7 +52,7 @@ A [`RecordingJsonHandler`][RecordingJsonHandler] is useful when testing a compon
 
 ```java
 // a JsonReplay
-JsonReply reply = ...
+JsonReply replay = ...
 
 // check the replay against an expected sequence of JsonEvents
 replay.assertEquals(
@@ -63,11 +63,11 @@ replay.assertEquals(
 ```
 
 
-[JsonReplay]: https://markenwerk.github.io/java-utils-json-handler-reply/index.html?net/markenwerk/utils/json/handler/reply/JsonReplay.html
-[RecordingJsonHandler]: https://markenwerk.github.io/java-utils-json-handler-reply/index.html?net/markenwerk/utils/json/handler/reply/RecordingJsonHandler.html
+[JsonReplay]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/handler/replay/JsonReplay.html
+[RecordingJsonHandler]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/handler/replay/RecordingJsonHandler.html
 
 
-[JsonEvent]: https://markenwerk.github.io/java-utils-json-handler-reply/index.html?net/markenwerk/utils/json/handler/reply/events/JsonEvent.html
+[JsonEvent]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/handler/replay/events/JsonEvent.html
 
 [JsonHandler]: https://markenwerk.github.io/java-utils-json-handler/index.html?net/markenwerk/utils/json/handler/JsonHandler.html
 
