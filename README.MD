@@ -63,13 +63,9 @@ replay.assertEquals(
 ```
 
 
-[JsonReplay]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/handler/replay/JsonReplay.html
-[RecordingJsonHandler]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/handler/replay/RecordingJsonHandler.html
+[JsonReplay]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/common/handler/replay/JsonReplay.html
+[RecordingJsonHandler]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/common/handler/replay/RecordingJsonHandler.html
 
-
-[JsonEvent]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/handler/replay/events/JsonEvent.html
+[JsonEvent]: https://markenwerk.github.io/java-utils-json-handler-replay/index.html?net/markenwerk/utils/json/handler/replay/JsonReplay.html
 
 [JsonHandler]: https://markenwerk.github.io/java-utils-json-handler/index.html?net/markenwerk/utils/json/handler/JsonHandler.html
-
-[Document]: https://docs.oracle.com/javase/8/docs/api/index.html?org/w3c/dom/Document.html
-
