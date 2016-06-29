@@ -45,7 +45,7 @@ JsonHandler handler = ...
 JsonReplay replay = document.handle(new RecordingJsonHandler());
 
 // replay the JsonDocument to the JsonHandler
-replay.repplay(handler); 
+replay.replay(handler); 
 ```
 
 A [`RecordingJsonHandler`][RecordingJsonHandler] is useful when testing a component that takes a [`JsonHandler`][JsonHandler], because the generated [`JsonReplay`][JsonReplay] can be used to easily check, if the correct callback methods have been called.
@@ -58,7 +58,7 @@ JsonReply replay = ...
 replay.assertEquals(
 	new DocumentBeginJsonEvent(),
 	new NullJsonEvent(),
-	new DocumentBeginJsonEvent(),
+	new DocumentEndJsonEvent(),
 );
 ```
 
